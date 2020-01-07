@@ -1,0 +1,5 @@
+node_modules
+*.spk
+
+# Generated code:
+pb-descriptor.mjs
