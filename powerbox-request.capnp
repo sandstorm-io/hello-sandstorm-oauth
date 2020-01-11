@@ -12,6 +12,10 @@ const tagValue :ApiSession.PowerboxTag = (
 
 const descriptor :Powerbox.PowerboxDescriptor = (
   tags = [
-    (id = 0xc879e379c625cdc7, value = .tagValue),
+    (
+      id = 0xc879e379c625cdc7,
+      # The type id for ApiSession.
+      value = .tagValue
+    ),
   ],
 );
