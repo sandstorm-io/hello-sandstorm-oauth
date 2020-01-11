@@ -4,7 +4,7 @@ using Powerbox = import "/sandstorm/powerbox.capnp";
 using ApiSession = import "/sandstorm/api-session.capnp".ApiSession;
 
 const tagValue :ApiSession.PowerboxTag = (
-  canonicalUrl = "https://api.github.com",
+  canonicalUrl = "https://api.github.com/",
   oauthScopes = [
     (name = "read:public_key"),
   ],
