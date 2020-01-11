@@ -9,6 +9,8 @@ window.addEventListener('DOMContentLoaded', () => {
       saveLabel: {defaultText: "Your GitHub account, for fetching your public key."},
     }).then((response) => {
       post('/powerbox-token', response.token)
+    }).then(() => {
+      window.location.href = '/keytext';
     })
   })
 })
