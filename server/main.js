@@ -65,7 +65,7 @@ function fetchKeyText() {
         //
         // It would probably still be better to use the expected host here,
         // but just to demo:
-        url: 'http://example.com/users/zenhack/keys',
+        url: 'http://example.com/user/keys',
       }, (err, githubResponse, body) => {
         if(err) {
           reject(err);
