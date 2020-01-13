@@ -71,7 +71,6 @@ function fetchKeyText() {
           reject(err);
           return;
         }
-        console.log(githubResponse)
         keytext = body;
         resolve(keytext)
       })
