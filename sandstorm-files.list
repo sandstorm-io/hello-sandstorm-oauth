@@ -259,8 +259,6 @@ node_modules/uuid/lib/bytesToUuid.js
 node_modules/uuid/lib/rng.js
 node_modules/uuid/v4.js
 node_modules/verror/lib/verror.js
-node_modules/verror/node_modules/extsprintf/lib/extsprintf.js
-node_modules/verror/node_modules/extsprintf/package.json
 node_modules/verror/package.json
 proc/cpuinfo
 sandstorm-http-bridge

@@ -55,6 +55,7 @@ Assuming you're on a Linux box with nodejs 10.x, sandstorm, and
 capnproto installed, you can run the app in dev mode via:
 
 ```
+npm install
 ./build.sh
 spk dev
 ```
