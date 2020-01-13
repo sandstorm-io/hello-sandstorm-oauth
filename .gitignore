@@ -3,3 +3,6 @@ node_modules
 
 # Generated code:
 pb-descriptor.mjs
+
+# Symlink to correct nodejs path.
+/node
