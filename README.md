@@ -60,4 +60,11 @@ npm install
 spk dev
 ```
 
+# Other HTTP
+
+It should be fairly easy to adapt this example to other HTTP endpoints,
+whether OAuth, basic auth or un-authenticated; just change `tagValue` in
+`./powerbox-request.capnp` as appropriate. See the comments for
+`PowerBoxTag` in `src/sandstorm/api-session.capnp` for more details.
+
 [1]: https://docs.sandstorm.io/en/latest/developing/powerbox/
