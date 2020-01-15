@@ -43,11 +43,10 @@ static files served to the browser. The server is in `./server/main.js`.
 The script `gen-pb-req.sh` is used to generate the powerbox
 descriptor from the data in `powerbox-request.capnp`.
 
-One caveat with this example is that it depends on a couple prs that
-haven't landed yet:
+One caveat with this example is that it depends on a pr that
+hasn't landed yet:
 
-- https://github.com/sandstorm-io/sandstorm/pull/3181
-- https://github.com/sandstorm-io/sandstorm/pull/3180
+- https://github.com/sandstorm-io/sandstorm/pull/3182
 
 ## Building
 
